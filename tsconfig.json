@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "rootDirs": ["src"],
+    "outDir": "dist",
+    "lib": ["es2020"],
+    "target": "es2020",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "types": ["node"],
+    "skipLibCheck": true,
+    "checkJs": true,
+  },
+  "exclude": ["./src/param.js", "./src/moralis.js", "./src/moralis_events.js"]
+}
